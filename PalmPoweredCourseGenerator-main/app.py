@@ -20,7 +20,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 # Create a Markdown instance with the FencedCodeExtension
